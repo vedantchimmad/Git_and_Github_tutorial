@@ -15,6 +15,7 @@ If we want to see history of all commits in local repository, then we have to us
 * `git log --until=<date>`:Show commits older than a specific date.
 * `git log --author=<pattern>`:Show commits based on Author
 * `git log --decorate --oneline`:This option will print some extra information like branch information,head information, tags information etc
+* `git log --oneline --graph`: used to see the commits in graph
 >[!NOTE]
 >
 > we can use -n and --oneline options together also.
