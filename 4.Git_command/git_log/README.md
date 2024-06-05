@@ -42,12 +42,16 @@ The main objective of deleting branch is to keep our repository clean.
 Rebase is alternative way to merge changes of two branches togther
 #### Process of rebasing: It is a two step process.
 **Step-1:** We have to rebase feature branch on top of master branch.
-1. Checkout feature branch git checkout feature 
-2. Rebase feature branch on top of master branch git rebase master
+1. Checkout feature branch 
+   * `git checkout feature` 
+2. Rebase feature branch on top of master branch 
+   * `git rebase master`
 
 **Step-2:** We have to merge feature branch into the master branch(fast-forwar merge will be happend)
-1. checkout master branch git checkout master 
-2. Merge feature branch into master branch git merge feature
+1. checkout master branch 
+   * `git checkout master` 
+2. Merge feature branch into master branch 
+   * `git merge feature`
 
 ### Advantages of rebasing: 
 1. Rebase keeps history linear.
